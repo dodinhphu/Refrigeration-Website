@@ -1,0 +1,614 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css hearder */
+
+.all_header {
+    background-color: #cccc;
+}
+
+.phan_dau {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    margin: 20px;
+    width: 200px;
+}
+
+.gioi-thieu {
+    text-align: center;
+    margin: 16px;
+    flex: 1;
+}
+
+.ten-cty {
+    color: #015673;
+    margin-bottom: 16px;
+}
+
+.dia-chi {
+    color: #cf0000;
+    line-height: 24px;
+}
+
+.lien-he {
+    color: #cf0000;
+    display: flex;
+    justify-items: flex-end;
+}
+
+.icon_lienhe {
+    font-size: 1.5rem;
+    margin-right: 12px;
+    margin-top: 2px;
+}
+
+.text_lien-he {
+    font-size: 1.6rem;
+}
+
+/* slide */
+.img_logodoitac {
+    width: 190px;
+    height: 70px;
+    margin: 8px;
+}
+
+#marq {
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 5px 0px 10px 0px #2a5f74;
+}
+.img_slide {
+    height: 400px;
+}
+
+.icon_slide {
+    opacity: 0;
+    transition: opacity 0.2s;
+    color: #4b8eff;
+    font-size: 30px;
+}
+
+.btn_slide:hover .icon_slide {
+    opacity: 1;
+}
+
+.nav_css {
+    background-color: #00a5dd !important;
+    transition: all 0.2s ease;
+}
+
+.nav_link_css {
+    color: #fff !important;
+}
+
+/* nav danh muc  */
+
+/* danh muc  */
+
+.list_item_dm {
+    display: block;
+    padding: 16px 10px;
+    font-size: 1.4rem;
+    line-height: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ten_dm {
+    display: block;
+    background: #015673;
+    color: white;
+    padding: 10px;
+    border-bottom: 5px solid #00A5DD;
+}
+
+.list_danhmuc {
+    padding-left: 0;
+    list-style: none;
+    border: 1px solid #cccc;
+    margin-bottom: 16px;
+}
+
+.item_dm, .item_dm_t {
+    margin: 0 16px;
+    border-top: 1px solid #cccc;
+    font-size: 1rem;
+    border-radius: 3px ;
+    OVERFLOW: auto;
+}
+
+.item_dm:hover {
+        background-color: #00a5dd;
+}
+
+.gt {
+    font-weight: 300;
+}
+
+.std {
+    color: red;
+}
+
+.list_lienhe {
+    display: flex;
+}
+
+.iconlienhe {
+    color: #00a5dd;
+    text-align: center;
+    margin-left: 12px;
+    font-size: 30px;
+    margin-top: -3px;
+}
+
+.icon_ct {
+    margin-right: 10px;
+}
+
+.item_nav a {
+    color: white;
+}
+
+.item_dm1 {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 12px 0px 12px 10px;
+}
+
+    .item_dm1:hover {
+        color: #fff;
+    }
+
+.nav_css.fix {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.conten_css {
+    padding: 0;
+}
+
+/* product */
+
+.txt_danhmuc_hienthi {
+    color: #015673;
+    font-size: 1.4rem;
+    position:relative;
+}
+
+.card_tieude {
+    color: red;
+}
+
+.btn_xem_ct {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-color: #00a5dd;
+}
+
+.card-text_css {
+    line-height: 1.5rem;
+    height: 9rem;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    text-overflow: ellipsis;
+}
+
+/* footer  */
+
+.footer_css {
+    background-color: #015673 !important;
+}
+
+.anh_dv {
+    padding-top: 62%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-control{
+    width:auto;
+}
+.f_email_ip{
+    width:100%;
+}
+.text_center{
+    text-align:center;
+}
+
+.text_center,.std,.email{
+    margin-bottom:0.6rem;
+}
+.magin_css {
+    margin:12px 0;
+}
+/* details post */
+.details_post_tieude {
+    display: flex;
+    color: red;
+    align-items: center;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.details_post_tieude_icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+    margin-right: 22px;
+}
+
+.details_post_date {
+    margin-bottom: 20px;
+}
+
+.date_post {
+    background: rgba(0, 0, 0, 0) url(../../img/bg-date.png) no-repeat scroll left center;
+    color: #909090;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 5px 0;
+    text-indent: 25px;
+}
+.mg_70{
+    margin:70px 0;
+}
+
+.card_css {
+    box-shadow: 0 1px 10px 0 rgb(0 0 0 / 5%);
+    transition: 0.3s;
+}
+    .card_css:hover {
+        transform: translateY(-3px);
+    }
+
+.nav-item_css {
+    font-size: 1.1rem;
+    padding: 14px 0px;
+    font-weight: bold;
+}
+
+.nav-item_css_active {
+    transition: all 0.2s;
+    background: #015673;
+    border-radius: 6px;
+}
+
+.card-body {
+    position: absolute;
+    background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .5) 36%, black 100%);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 10px;
+}
+
+.card_text, .card_text_time, .card_tieude, .icon_sc {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.card_tieude {
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+    .card_tieude:hover {
+        color: #ec521e;
+    }
+
+.thesc {
+    margin-bottom: 12px;
+    display: table;
+    padding: 0px 10px;
+    font-weight: 300;
+    border-radius: 4px;
+    background-color: #ff3d00;
+}
+
+.card_text, .card_text_time, .icon_sc {
+    font-size: 16px;
+}
+
+.card_text_time {
+    margin-top: 12px;
+}
+
+.txt_danhmuc_hienthi:after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    top: 50%;
+    margin-left: 15px;
+    background-color: #015673;
+}
+
+.all_card {
+    overflow: hidden;
+}
+
+.link_card_cha {
+    overflow: hidden;
+}
+.img_card {
+    transition: .8s;
+}
+
+    .img_card:hover {
+        transform: scale(1.2);
+    }
+/* đề mục */
+
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: " ";
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title-cathome .title-con {
+    height: 37px;
+    min-width: 240px;
+}
+
+.title-cathome .title-con {
+    background: url(../../img/bgleft.png) left no-repeat #1088d6;
+    height: 37px;
+    min-width: auto;
+    float: left;
+    position: relative;
+}
+
+.title-cathome a {
+    display: table;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 4px 40px;
+    font-size: 19px;
+    line-height: 32px;
+    position: relative;
+}
+
+.title-cathome .title-con:after {
+    content: '';
+    top: -3px;
+    position: absolute;
+    background: url(../../img/bgtieude111.png) right no-repeat;
+    height: 40px;
+    width: 40px;
+    right: -36px;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+
+/* liên hệ */
+
+.success.is-underline:hover, .success.is-outline:hover, .success {
+    background-color: #1E73BE;
+    color: white !important;
+    padding: 12px 16px;
+}
+
+.call-mobile {
+    background: #ED1C24;
+    position: fixed;
+    bottom: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0px 0 0px;
+    border-radius: 40px;
+    color: #fff;
+    right: 20px;
+    z-index: 99999;
+}
+
+.call-mobile1 {
+    position: fixed;
+    bottom: 95px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0px 0 0px;
+    border-radius: 40px;
+    color: #fff;
+    right: 20px;
+    z-index: 99999;
+}
+
+.call-mobile2 {
+    position: fixed;
+    bottom: 150px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0px 0 0px;
+    border-radius: 40px;
+    color: #fff;
+    right: 20px;
+    z-index: 99999;
+}
+
+.call-mobile i {
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    float: right;
+}
+
+.call-mobile a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.lienhe_mobi {
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 10px 0 #000;
+    display: none;
+}
+
+.phone {
+    flex: 3;
+}
+
+.zalo {
+    flex: 1;
+}
+
+.phone a {
+    background-color: #344567;
+}
+
+.zalo a {
+    background-color: #2291e9;
+}
+
+.link_mobi_lienhe {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding: 8px 0;
+    border-radius: 2px;
+    font-weight: 500;
+    animation: ease 10s infinite;
+    font-style: italic;
+}
+
+.text_lien-he {
+    animation: shakeY ease 1s infinite;
+}
+
+.link_mobi_lienhe:active {
+    color: #fff;
+}
+
+
+/* mobie  */
+
+@media (max-width: 576px) {
+    .navbar_dm, .dia-chi, .lien-he {
+        display: none;
+    }
+    .nav-item_css {
+        padding: 4px 10px;
+    }
+   .ttten{
+        font-size:16px;
+    }
+    .img-logo {
+        margin: 4px 0;
+        width: 110px;
+    }
+
+    .ten-cty {
+        margin: 0;
+        font-size: 20px;
+        font-family: cursive;
+        color: #54bde2;
+        animation: heartBeat 2s infinite;
+    }
+
+    .img_slide {
+        height: 170px;
+        margin: 20px 0;
+    }
+
+    .txt_danhmuc_hienthi:after {
+        display: none;
+    }
+
+    .img_card {
+        width: 100%;
+        max-height: 190px !important;
+        min-height: 190px !important;
+    }
+
+    .all_item_card {
+        margin-bottom: 16px;
+    }
+
+    .card_tieude {
+        font-size: 18px;
+    }
+
+    .card_text_time {
+        margin-top: 4px;
+    }
+
+    .thesc {
+        margin-bottom: 4px;
+    }
+
+    .card_text, .card_text_time, .icon_sc {
+        font-size: 14px;
+    }
+
+    .link_card_cha {
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    .txt_danhmuc_hienthi {
+        font-size: 16px;
+    }
+
+    .all_header {
+        background-color: #000;
+    }
+    .p_gioithieu p {
+        display: table-row-group !important;
+    }
+    .all_details_post{
+        padding:0 4px !important;
+    }
+    .img_logodoitac {
+        width: 90px !important;
+        height: 45px !important;
+    }
+    /* liên Hệ */
+    .aa_lienhen {
+        display: none;
+    }
+
+    .lienhe_mobi {
+        display: flex;
+    }
+}
